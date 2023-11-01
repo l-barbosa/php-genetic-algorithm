@@ -91,6 +91,30 @@ final class Population
     }
 
     /**
+     * Increments the generation
+     */
+    public function incrementEpoch(): void
+    {
+        $this->epoch += 1;
+    }
+
+    /**
+     * Returns population number.
+     */
+    public function getPopulationNumber(): int
+    {
+        return $this->populationNumber;
+    }
+
+    /**
+     * Returns mutation rate
+     */
+    public function getMutationRate(): int
+    {
+        return $this->populationNumber;
+    }
+
+    /**
      * Returns array of all the population genes.
      *
      * @return AbstractDNA[]
