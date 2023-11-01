@@ -127,7 +127,7 @@ final class Population
     /**
      * Sets a new population
      */
-    public function setPopulation(AbstractDNA $newPopulation): void
+    public function setPopulation(array $newPopulation): void
     {
         $this->population = $newPopulation;
     }
