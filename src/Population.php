@@ -8,7 +8,7 @@ use Voodooism\Genetic\DNA\AbstractDNA;
 use Voodooism\Genetic\DNA\NullDNA;
 use InvalidArgumentException;
 
-final class Population
+class Population
 {
     /**
      * Array of DNA.
