@@ -125,6 +125,14 @@ final class Population
     }
 
     /**
+     * Sets a new population
+     */
+    public function setPopulation(AbstractDNA $newPopulation): void
+    {
+        $this->population = $newPopulation;
+    }
+
+    /**
      * Evaluates the fitness of the whole population.
      */
     public function evaluateFitness(): void
