@@ -109,9 +109,9 @@ class Population
     /**
      * Returns mutation rate
      */
-    public function getMutationRate(): int
+    public function getMutationRate(): float
     {
-        return $this->populationNumber;
+        return $this->mutationRate;
     }
 
     /**
